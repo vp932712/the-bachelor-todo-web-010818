@@ -22,7 +22,7 @@ end
   def get_contestant_name(data, str)
   name = nil
   data.each do |season|
-    data.each do |contestant|
+    season.each do |contestant|
       if contestant['occupation'] == str
       name = contestant['name']
     end
