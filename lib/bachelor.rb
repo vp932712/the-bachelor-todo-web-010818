@@ -22,10 +22,10 @@ end
   name = nil
   data.each do |contestant|
     if contestant['occupation'] == str
-      name = contestant['name'].split(' ')
+      name = contestant['name']
     end
   end
-  name[0]
+  name
 end
 
 
