@@ -23,16 +23,16 @@ def get_contestant_name(data, str)
 name = nil
 data.each do |season, key|
   key.each do |contestant|
-  
+
  if contestant[:occupation] == str
-   
+
    name = contestant[:name]
- 
+
 end
   end
 end
 
-     name   
+     name
        end
 
 
