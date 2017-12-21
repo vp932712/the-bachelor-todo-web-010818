@@ -25,11 +25,12 @@ end
 
     season.each do |contestant|
       puts contestant
-    end
+
     if contestant['occupation'] == str
       name = contestant['name']
     end
   end
+end
   name
 end
 
