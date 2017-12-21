@@ -77,14 +77,14 @@ end
 
 
 def get_average_age_for_season(data, season)
-average = 0 
-total = 0 
+average = 0
+total = 0
    arr = []
 
  data[season].each do |key|
-   
+
    # key.each do |key1, value1|
-    
+
      arr.push(key["age"].to_i)
     end
 arr.each do |num|
