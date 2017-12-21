@@ -24,7 +24,7 @@ end
   data.each do |season|
 
     season.each do |contestant|
-      puts contestant
+      
 
     if contestant['occupation'] == str
       name = contestant['name']
