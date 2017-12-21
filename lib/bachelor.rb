@@ -22,7 +22,7 @@ end
   def get_contestant_name(data, str)
   name = nil
   data.each do |season|
-    
+
     season.each do |contestant|
       puts contestant
     end
