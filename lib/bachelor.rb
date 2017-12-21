@@ -24,9 +24,9 @@ name = nil
 data.each do |season, key|
   key.each do |contestant|
 
- if contestant[:occupation] == str
+ if contestant["occupation"] == str
 
-   name = contestant[:name]
+   name = contestant["name"]
 
 end
   end
