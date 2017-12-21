@@ -22,11 +22,8 @@ end
   def get_contestant_name(data, str)
   name = nil
   data.each do |season|
-
-    season.each do |contestant|
-      
-
-    if contestant['occupation'] == str
+    data[season].each do |contestant|
+      if contestant['occupation'] == str
       name = contestant['name']
     end
   end
